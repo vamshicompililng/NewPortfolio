@@ -109,3 +109,15 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = 'https://github.com/vamshicompililng/Realtime-tracker'; // Replace 'https://example.com' with your desired URL
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const redirectButton5 = document.getElementById('redirectBtn5');
+
+    // Add click event listener to the button
+    redirectButton5.addEventListener('click', function() {
+        // Redirect to another page
+        window.location.href = 'https://campgroundchat-app-v1.onrender.com/'; // Replace 'https://example.com' with your desired URL
+    });
+});
+
